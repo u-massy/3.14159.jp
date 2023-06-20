@@ -4,8 +4,6 @@ header( 'Cache-Control: no-store, no-cache, must-revalidate' );
 header( 'Cache-Control: post-check=0, pre-check=0', FALSE );
 header('Pragma:no-cache');
 
-/* NHKの地震情報をゴニョゴニョして貰う方法 by nirot1r */
-
 $imageBaseURL = "http://www3.nhk.or.jp/sokuho/jishin/"; /* 1 */
 
 $rawReportXML = mb_convert_encoding(file_get_contents("http://www3.nhk.or.jp/sokuho/jishin/data/JishinReport.xml"), "UTF-8", "SJIS"); /* 2 */
