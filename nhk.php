@@ -2,7 +2,7 @@
 
 header( 'Cache-Control: no-store, no-cache, must-revalidate' );
 header( 'Cache-Control: post-check=0, pre-check=0', FALSE );
-header('Pragma:no-cache');
+header('Pragma:no-cache'); 
 
 $imageBaseURL = "http://www3.nhk.or.jp/sokuho/jishin/"; /* 1 */
 
