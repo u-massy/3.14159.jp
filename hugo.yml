@@ -1,0 +1,90 @@
+baseURL: 'http://3.14159.jp/'
+canonifyurls: false
+languageCode: ja-JP
+defaultContentLanguage: 'ja'
+title: 3.14159.jp
+theme: PaperMod
+
+enableEmoji: true
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  description: "Portfolio of Massy, a student web developer"
+  keywords: [Massy, Portfolio, Pi]
+  author: Massy
+  # author: ["Me", "You"] # multiple authors
+  images: ["/img/icon.jpg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/img/favicon.ico"
+    favicon16x16: "/img/favicon.ico"
+    favicon32x32: "/img/favicon.ico"
+    apple_touch_icon: "/img/favicon.ico"
+    safari_pinned_tab: "/img/favicon.ico"
+
+  featuredImageField: image
+  rssFullContent: true
+  favicon: /img/favicon.ico
+  socialIcons:
+    - name: Twitter
+      url: 'https://twitter.com/massy1102'
+    - name: GitHub
+      url: 'https://github.com/u-massy'
+    - name: Blog
+      url: 'https://blog.3.14159.jp/'
+
+  profileMode:
+    enabled: true
+    title: I'm Massy
+    subtitle: Hi there!
+    imageUrl: /img/icon.png
+    imageTitle: y=sin(x)
+    imageWidth: 120
+    imageHeight: 120
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - name: History
+      url: history
+      weight: 5
+    - name: Profile
+      url: profile
+      weight: 10
+    - name: Skills
+      url: skills
+      weight: 15
+    - name: Socials
+      url: socials
+      weight: 20
