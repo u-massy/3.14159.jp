@@ -4,6 +4,7 @@ languageCode: ja-JP
 defaultContentLanguage: 'ja'
 title: 3.14159.jp
 theme: PaperMod
+googleAnalytics: "G-LDTHQ46MYT"
 
 enableEmoji: true
 enableRobotsTXT: true
