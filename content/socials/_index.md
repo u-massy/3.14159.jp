@@ -5,7 +5,7 @@ draft: false
 ---
 
 ## E-mail
-info@3.14159.jp
+ushi@3.14159.jp
 
 ## Twitter
 <i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>[@massy1102](https://twitter.com/massy1102)
