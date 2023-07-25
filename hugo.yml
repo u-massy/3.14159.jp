@@ -1,4 +1,4 @@
-baseURL: 'http://3.14159.jp/'
+baseURL: 'https://3.14159.jp/'
 canonifyurls: false
 languageCode: ja-JP
 defaultContentLanguage: 'ja'
