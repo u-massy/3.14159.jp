@@ -18,4 +18,7 @@ National Institute of Technology, Nagano College
 ## Department
 Department of Electronic Information Engineering
 
+## License
+- Amateur Third-Class Radio Operator
+
 
