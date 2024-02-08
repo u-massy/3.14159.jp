@@ -7,7 +7,7 @@ draft: false
 Masashi Ushitani
 
 ## Age
-17
+18
 
 ## Birthday
 2005/11/02
