@@ -59,3 +59,16 @@ draft: false
 2023/07/01  
 **[信州ハッカソン in 長野](https://ailab-corp.connpass.com/event/285350/) 最コラボレーション賞 受賞**
 {{% fontsize 0.75 "システムのフロントエンド・バックエンドを担当した。" %}}
+
+
+2023/07 - 2023/10  
+**文化祭の開校60周年記念企画のアプリを開発（3年目）**  
+{{% fontsize 0.75 "QRコードを読み込み、ミッションを達成していくアプリ。内容はスタンプラリーアプリと似ているが、UIは刷新した。" %}}
+
+---
+
+2024/09/01  
+**[高専キャリア起業部 2024夏の全国大会](https://kosen-career.tech/lp/2024summer)** 
+**[高専キャリア起業部ピッチ](https://kosen-career.tech/news/2024summer-pitch-presenter) 出場**
+{{% fontsize 0.75 "「[大本営発表データベース](https://daihon-ei.jp)(開発中)」で「**[準優勝](https://x.com/kosen_career/status/1830141553425432875)**」＆「**[オーディエンス賞](https://x.com/kosen_career/status/1830141253125898271)**」受賞" %}}
+{{% fontsize 0.75 "当日使用したスライドは[こちら](https://www.docswell.com/s/massy1102/KV1114-20240901-daihon-ei)から" %}}

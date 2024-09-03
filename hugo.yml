@@ -77,18 +77,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: posts
+      name: posts
+      url: posts
+      weight: 5
     - name: History
       url: history
-      weight: 5
+      weight: 10
     - name: Profile
       url: profile
-      weight: 10
+      weight: 15
     - name: Skills
       url: skills
-      weight: 15
+      weight: 20
     - name: Socials
       url: socials
-      weight: 20
+      weight: 25
 
 markup:
     goldmark:
