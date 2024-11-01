@@ -1,0 +1,60 @@
+.page-header > h1, .post-title, .post-content{
+    font-family: 'Noto Serif JP', serif;
+}
+
+video::cue {
+    font-size: 1.6em;
+    padding: 2em 0.5em;
+    line-height: 1.8em;
+    font-family: 'Noto Serif JP', serif;
+}
+
+ol {
+    list-style-type: cjk-ideographic;
+}
+
+ol {
+    margin: 0 0.3em 0 0;
+}
+
+p {
+    text-indent: 1em;
+}
+
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    margin: 0 0.5em 1em;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    margin-bottom: 0.5em;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.fw-bold {
+    font-weight: bold;
+}

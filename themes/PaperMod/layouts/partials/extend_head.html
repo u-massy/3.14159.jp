@@ -1,4 +1,13 @@
 {{- /* Head custom content area start */ -}}
 {{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
 {{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- if ne (.Resources.Match "daihon-ei-post.css") nil -}}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="daihon-ei-post.css" />
+{{- end -}}
+{{- if ne (.Resources.Match "daihon-ei-list.css") nil -}}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="daihon-ei-list.css" />
+{{- end -}}
+
 {{- /* Head custom content area end */ -}}

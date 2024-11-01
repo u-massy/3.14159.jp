@@ -1,0 +1,125 @@
+baseURL: 'https://3.14159.jp/'
+canonifyurls: false
+languageCode: ja-JP
+defaultContentLanguage: 'ja'
+title: 3.14159.jp
+theme: PaperMod
+googleAnalytics: "G-LDTHQ46MYT"
+
+enableEmoji: true
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  description: "Portfolio of Massy, a student web developer"
+  keywords: [Massy, Portfolio, Pi]
+  ShareButtons: ["linkedin", "twitter"] # To customize which share buttons to be enabled on page
+  author: Massy
+  # author: ["Me", "You"] # multiple authors
+  images: ["/img/icon.jpg", "twitter_card.jpg"]
+  DateFormat: "2006年1月2日"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/img/favicon.ico"
+    favicon16x16: "/img/favicon.ico"
+    favicon32x32: "/img/favicon.ico"
+    apple_touch_icon: "/img/favicon.ico"
+    safari_pinned_tab: "/img/favicon.ico"
+
+  featuredImageField: image
+  rssFullContent: true
+  favicon: /img/favicon.ico
+  socialIcons:
+    - name: x
+      url: 'https://x.com/massy1102'
+    - name: GitHub
+      url: 'https://github.com/u-massy'
+    - name: note
+      url: 'https://note.com/massy1102'
+
+  homeInfoParams:
+    Title: I'm Massy
+    Content: Masashi Ushitani
+  #profileMode:
+  #  enabled: true
+  #  title: I'm Massy
+  #  subtitle: Hi there!
+  #  imageUrl: /img/icon.png
+  #  imageTitle: y=sin(x)
+  #  imageWidth: 120
+  #  imageHeight: 120
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 5
+    - name: History
+      url: /history/
+      weight: 10
+    - name: Profile
+      url: /profile/
+      weight: 15
+    - name: Skills
+      url: /skills/
+      weight: 20
+    - name: Socials
+      url: /socials/
+      weight: 25
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 35
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

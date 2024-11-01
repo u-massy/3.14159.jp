@@ -9,7 +9,8 @@
       <url>https://3.14159.jp/img/icon.jpg</url>
       <link>https://3.14159.jp/img/icon.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-JP</language><atom:link href="https://3.14159.jp/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.114.0</generator>
+    <language>ja</language>
+    <atom:link href="https://3.14159.jp/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

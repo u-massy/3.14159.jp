@@ -20,10 +20,11 @@ minify:
 params:
   description: "Portfolio of Massy, a student web developer"
   keywords: [Massy, Portfolio, Pi]
+  ShareButtons: ["linkedin", "x"] # To customize which share buttons to be enabled on page
   author: Massy
   # author: ["Me", "You"] # multiple authors
-  images: ["/img/icon.jpg"]
-  DateFormat: "January 2, 2006"
+  images: ["/img/icon.jpg", "twitter_card.jpg"]
+  DateFormat: "2006年1月2日"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -46,13 +47,16 @@ params:
   rssFullContent: true
   favicon: /img/favicon.ico
   socialIcons:
-    - name: Twitter
-      url: 'https://twitter.com/massy1102'
+    - name: x
+      url: 'https://x.com/massy1102'
     - name: GitHub
       url: 'https://github.com/u-massy'
-    - name: Blog
-      url: 'https://blog.3.14159.jp/'
+    - name: note
+      url: 'https://note.com/massy1102'
 
+  #homeInfoParams:
+  #  Title: I'm Massy
+  #  Content: Masashi Ushitani
   profileMode:
     enabled: true
     title: I'm Massy
@@ -61,6 +65,11 @@ params:
     imageTitle: y=sin(x)
     imageWidth: 120
     imageHeight: 120
+  #  buttons:
+  #    - name: 投稿
+  #      url: posts
+  #    - name: 大本営発表
+  #      url: daihon-ei
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -75,23 +84,94 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - name: History
-      url: history
-      weight: 10
-    - name: Profile
-      url: profile
-      weight: 15
-    - name: Skills
-      url: skills
-      weight: 20
-    - name: Socials
-      url: socials
-      weight: 25
+
+
+languages:
+  ja:
+    languageName: "Japanese"
+    weight: 1
+    contentDir: content/ja
+    staticDir: static/
+    params:
+      profileMode:
+        buttons:
+          - name: 投稿
+            url: /posts/
+          - name: 自分史
+            url: /history/
+          - name: プロフィール
+            url: /profile/
+          - name: スキル
+            url: /skills/
+          - name: 大本營發表DB
+            url: /daihon-ei/
+    menu:
+      main:
+        - identifier: posts
+          name: 投稿
+          url: /posts/
+          weight: 10
+        - name: プロフィール
+          url: /profile/
+          weight: 15
+        - name: 連絡先
+          url: /socials/
+          weight: 20
+        - name: 大本營發表DB
+          url: /daihon-ei/
+          weight: 25
+        - identifier: search
+          name: 検索
+          url: /search/
+          weight: 35
+        - name: アーカイブ
+          url: /archives/
+          weight: 45
+#        - name: タグ
+#          url: /tags/
+#          weight: 30
+#        - identifier: archives
+#          name: アーカイブ
+#          url: /archives/
+#          weight: 45
+
+  en:
+    languageName: "English"
+    weight: 2 
+    contentDir: content/en
+    staticDir: static/
+    params:
+      profileMode:
+        buttons:
+          - name: History
+            url: /en/history/
+          - name: Profile
+            url: /en/profile/
+          - name: Skills
+            url: /en/skills/
+    menu:
+      main:
+        - name: History
+          url: /en/history/
+          weight: 10
+        - name: Profile
+          url: /en/profile/
+          weight: 15
+        - name: Skills
+          url: /en/skills/
+          weight: 20
+        - name: Socials
+          url: /en/socials/
+          weight: 25
 
 markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
