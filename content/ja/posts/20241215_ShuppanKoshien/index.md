@@ -9,8 +9,8 @@ ShowShareButtons: true
 ShareButtons: ['x','facebook','clipboard']
 ---
 
-この記事は「[長野高専アドベントカレンダー2024](https://qiita.com/advent-calendar/2024/nnct)」の8日目の記事となっています！
-私としては、2回目の記事です！
+この記事は「[長野高専アドベントカレンダー2024](https://qiita.com/advent-calendar/2024/nnct)」の18日目の記事となっています！
+私個人としては、当アドベントカレンダー2回目の記事です！
 
 既に、12月も半分が過ぎ、今年を振り返る時期になりました。
 
