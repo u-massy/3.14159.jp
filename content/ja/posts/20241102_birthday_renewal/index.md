@@ -4,7 +4,7 @@ date: 2024-11-02T00:00:00+09:00
 tags: [""]
 draft: false
 ShowToc: true
-TocOpen: true
+TocOpen: false
 ShowShareButtons: true
 ShareButtons: ['x','facebook','clipboard']
 ---

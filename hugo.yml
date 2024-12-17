@@ -28,9 +28,9 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
@@ -105,6 +105,8 @@ languages:
             url: /skills/
           - name: 大本營發表DB
             url: /daihon-ei/
+          - name: アーカイブ
+            url: /archives/
     menu:
       main:
         - identifier: posts
@@ -117,23 +119,13 @@ languages:
         - name: 連絡先
           url: /socials/
           weight: 20
-        - name: 大本營發表DB
-          url: /daihon-ei/
+        - name: 自分史
+          url: /history/
           weight: 25
         - identifier: search
           name: 検索
           url: /search/
           weight: 35
-        - name: アーカイブ
-          url: /archives/
-          weight: 45
-#        - name: タグ
-#          url: /tags/
-#          weight: 30
-#        - identifier: archives
-#          name: アーカイブ
-#          url: /archives/
-#          weight: 45
 
   en:
     languageName: "English"

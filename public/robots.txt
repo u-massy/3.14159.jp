@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://3.14159.jp/sitemap.xml
