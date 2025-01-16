@@ -99,12 +99,10 @@ languages:
             url: /posts/
           - name: 自分史
             url: /history/
-          - name: プロフィール
-            url: /profile/
           - name: スキル
             url: /skills/
           - name: 大本營發表DB
-            url: /daihon-ei/
+            url: https://daihon-ei.jp
           - name: アーカイブ
             url: /archives/
     menu:

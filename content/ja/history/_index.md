@@ -68,7 +68,7 @@ draft: false
 ---
 
 2024/09/01  
-**[高専キャリア起業部 2024夏の全国大会](https://kosen-career.tech/lp/2024summer)** 
+**[高専キャリア起業部 2024 夏の全国大会](https://kosen-career.tech/lp/2024summer)** 
 **[高専キャリア起業部ピッチ](https://kosen-career.tech/news/2024summer-pitch-presenter) 出場**
 {{% fontsize 0.75 "「[大本営発表データベース](https://daihon-ei.jp)(開発中)」で「**[準優勝](https://x.com/kosen_career/status/1830141553425432875)**」＆「**[オーディエンス賞](https://x.com/kosen_career/status/1830141253125898271)**」受賞" %}}
 {{% fontsize 0.75 "当日使用したスライドは[こちら](https://www.docswell.com/s/massy1102/KV1114-20240901-daihon-ei)から" %}}
@@ -80,3 +80,7 @@ draft: false
 2024/12/15  
 **[第20回 出版甲子園 決勝大会](https://spk.picaso.jp/) 準グランプリ 受賞**
 {{% fontsize 0.75 "日本史好きの若者が、戦死した曾祖父を遺された記録から人物像を追っていく企画「[18歳、戦死した曾祖父を追う](https://gakumado.mynavi.jp/gmd/articles/77245)」を発表。3度の予選審査を経て決勝大会に進出。準グランプリを受賞" %}}
+
+2024/12/28  
+**[大本營發表データベース](https://daihon-ei.jp) をリリース**
+{{% fontsize 0.75 "高専キャリア 2024 冬の全国大会のLT発表で、Next.jsを使ったWebアプリケーションを発表。" %}}
