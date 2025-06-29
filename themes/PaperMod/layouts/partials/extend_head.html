@@ -9,5 +9,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="daihon-ei-list.css" />
 {{- end -}}
-
+<style>
+	@import "https://davidar.github.io/linja-pona/stylesheet.css";
+	.linja-pona {
+		font-family: linja-pona, sans-serif;
+	}
+</style>
+{{ if eq .Lang "toki-pona" }}
+<style>
+	body {
+		font-family: linja-pona, sans-serif;
+	}
+	footer, .logo {
+		font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+	}
+</style>
+{{ end }}
 {{- /* Head custom content area end */ -}}

@@ -2,82 +2,180 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>3.14159.jp</title>
-    <link>https://3.14159.jp/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 3.14159.jp</description>
     <image>
       <title>3.14159.jp</title>
-      <url>https://3.14159.jp/img/icon.jpg</url>
-      <link>https://3.14159.jp/img/icon.jpg</link>
+      <url>http://localhost:1313/img/icon.jpg</url>
+      <link>http://localhost:1313/img/icon.jpg</link>
     </image>
-    <generator>Hugo -- 0.114.0</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0900</lastBuildDate>
-    <atom:link href="https://3.14159.jp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ある高専生、出版甲子園に応募する</title>
-      <link>https://3.14159.jp/posts/20241215_shuppankoshien/</link>
+      <link>http://localhost:1313/posts/20241215_shuppankoshien/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0900</pubDate>
-      <guid>https://3.14159.jp/posts/20241215_shuppankoshien/</guid>
-      <description>この記事は「長野高専アドベントカレンダー2024」の18日目の記事となっています！ 私個人としては、当アドベントカレンダー2回目の記事です！
-既に、12月も半分が過ぎ、今年を振り返る時期になりました。
-今回の記事は明らかに技術系ではないので、Qiitaの方ではなく、個人のブログの方で書きたいと思います。 （あと、このサイトのブログに記事が全然ないためという理由もある）
-あと、だらだら書くので、私が言いたいことだけ知りたい人は、最後の感想だけでも読んでいただけると嬉しいです。
-簡単な自己紹介(再掲) どうも！まっしぃです！長野高専の学生をやってます。 学年とか学科とかは、Twitter(現X)とかを漁ってもらえればわかるので、知りたい人はがんばってください。 今年は実名と顔を露出してしまうという愚かな行為をしたわけですが、幸いにも悪いことはまだ起きていません。よかった。
-今回の記事に関わる部分で言うと、私は 「日本史好き」 です！ 小学校6年の歴史の授業が始まる前から日本史に興味を持ったんですが、そこから日本史に飽きたことはないですね。
-そんな日本史好きな少年は、何を血迷ったのか 「長野工業高等専門学校 電子情報工学科」 に入学しました。後悔はしていません。
-先週末何やってた？ 先週末(12月15日)に、私は東京に来ていました！
-なぜ、東京に来ていたのでしょうか。決して、大本営発表の入力をするために来たのではありません。
-ちなみに今、都内某所のスタバで、大本営発表の入力作業をしています。
-何やってんだろうね、この男は。
-#大本営発表DB https://t.co/a4hbtzp0JM
-&amp;mdash; まっしぃ (@massy1102) December 14, 2024 理由は、 「出版甲子園」 という、大会に出るためでした！
-#第20回出版甲子園
-続いて前半ラスト企画、『18歳、戦死した曾祖父を追う』のプレゼン中です👴
-戦死したロシア語通訳官の曽祖父の足跡を追いながら家族愛を再認識していく過程を描く、エッセイ企画です。
-企画紹介はこちらから→https://t.co/eBhufza4KU
-配信はこちらから→https://t.co/Lm2F4mBXId pic.twitter.com/9MGmCTXnb2
-&amp;mdash; 出版甲子園公式アカウント (@shuppankoushien) December 15, 2024 出版甲子園とは 出版甲子園は、出版甲子園実行委員会という早稲田大学の公認サークルが行っている大会で、以下が公式サイトの説明です。
-出版甲子園は 「学生の、学生による、学生のための出版コンペティション」 です。
-私たち実行委員会は、全国から「こんな本を書きたい！」という出版企画を募集し、商業出版へとつなげる活動をしております。
-2005年に団体が設立されてより、43冊の本が出版甲子園を通して世に送り出されてきました。(2024年7月31日時点)
-応募資格はただ１つ、 『学生』 であること！
-二度の審査を通過した約10企画には出版の可能性が生まれます。
-また、三度目の審査を通過した上位企画はコンペティションイベント 「出版甲子園決勝大会」 への出場権を獲得。
-出版業界の最前線で活躍する敏腕編集者・書店員の審査員や多くの観客の前で企画をプレゼンするチャンスが与えられます。
-審査や決勝大会を通じて編集者の目にとまった企画は商業出版を目指して動き出します。 出版甲子園とは | 出版甲子園spk.picaso.jp要約すると、「学生が、本の出版を目指して、企画をプレゼンする大会」 です。
-なんで、私が出版甲子園に!? 私と出版甲子園との出会いは、前回(2023年)の第19回出版甲子園でした。</description>
+      <guid>http://localhost:1313/posts/20241215_shuppankoshien/</guid>
+      <description>&lt;p&gt;この記事は「&lt;a href=&#34;https://qiita.com/advent-calendar/2024/nnct&#34;&gt;長野高専アドベントカレンダー2024&lt;/a&gt;」の18日目の記事となっています！
+私個人としては、当アドベントカレンダー2回目の記事です！&lt;/p&gt;
+&lt;p&gt;既に、12月も半分が過ぎ、今年を振り返る時期になりました。&lt;/p&gt;
+&lt;p&gt;今回の記事は明らかに&lt;strong&gt;技術系ではない&lt;/strong&gt;ので、Qiitaの方ではなく、個人のブログの方で書きたいと思います。
+&lt;span style=&#34;display:block; line-height: 2em; font-size: 0.8em; &#34;&gt;（あと、このサイトのブログに記事が全然ないためという理由もある）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;あと、だらだら書くので、私が言いたいことだけ知りたい人は、最後の&lt;strong&gt;感想&lt;/strong&gt;だけでも読んでいただけると嬉しいです。&lt;/p&gt;
+&lt;h2 id=&#34;簡単な自己紹介再掲&#34;&gt;簡単な自己紹介(再掲)&lt;/h2&gt;
+&lt;p&gt;どうも！&lt;strong&gt;まっしぃ&lt;/strong&gt;です！長野高専の学生をやってます。
+学年とか学科とかは、Twitter(現X)とかを漁ってもらえればわかるので、知りたい人はがんばってください。
+今年は実名と顔を露出してしまうという&lt;del&gt;愚かな&lt;/del&gt;行為をしたわけですが、幸いにも悪いことはまだ起きていません。よかった。&lt;/p&gt;
+&lt;p&gt;今回の記事に関わる部分で言うと、私は &lt;strong&gt;「日本史好き」&lt;/strong&gt; です！
+小学校6年の歴史の授業が始まる前から日本史に興味を持ったんですが、そこから日本史に&lt;strong&gt;飽きたことはない&lt;/strong&gt;ですね。&lt;/p&gt;
+&lt;p&gt;そんな日本史好きな少年は、何を血迷ったのか &lt;strong&gt;「長野工業高等専門学校 電子情報工学科」&lt;/strong&gt; に入学しました。後悔はしていません。&lt;/p&gt;
+&lt;h2 id=&#34;先週末何やってた&#34;&gt;先週末何やってた？&lt;/h2&gt;
+&lt;p&gt;先週末(12月15日)に、私は東京に来ていました！&lt;/p&gt;
+&lt;p&gt;なぜ、東京に来ていたのでしょうか。決して、大本営発表の入力をするために来たのではありません。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;ちなみに今、都内某所のスタバで、大本営発表の入力作業をしています。&lt;br&gt;&lt;br&gt;何やってんだろうね、この男は。&lt;br&gt;&lt;br&gt; &lt;a href=&#34;https://twitter.com/hashtag/%E5%A4%A7%E6%9C%AC%E5%96%B6%E7%99%BA%E8%A1%A8DB?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#大本営発表DB&lt;/a&gt; &lt;a href=&#34;https://t.co/a4hbtzp0JM&#34;&gt;https://t.co/a4hbtzp0JM&lt;/a&gt;&lt;/p&gt;&amp;mdash; まっしぃ (@massy1102) &lt;a href=&#34;https://twitter.com/massy1102/status/1867818349323071926?ref_src=twsrc%5Etfw&#34;&gt;December 14, 2024&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;理由は、 &lt;strong&gt;「出版甲子園」&lt;/strong&gt; という、大会に出るためでした！&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E7%AC%AC20%E5%9B%9E%E5%87%BA%E7%89%88%E7%94%B2%E5%AD%90%E5%9C%92?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#第20回出版甲子園&lt;/a&gt;&lt;br&gt;続いて前半ラスト企画、『18歳、戦死した曾祖父を追う』のプレゼン中です👴&lt;br&gt;戦死したロシア語通訳官の曽祖父の足跡を追いながら家族愛を再認識していく過程を描く、エッセイ企画です。&lt;br&gt;&lt;br&gt;企画紹介はこちらから→&lt;a href=&#34;https://t.co/eBhufza4KU&#34;&gt;https://t.co/eBhufza4KU&lt;/a&gt;&lt;br&gt;配信はこちらから→&lt;a href=&#34;https://t.co/Lm2F4mBXId&#34;&gt;https://t.co/Lm2F4mBXId&lt;/a&gt; &lt;a href=&#34;https://t.co/9MGmCTXnb2&#34;&gt;pic.twitter.com/9MGmCTXnb2&lt;/a&gt;&lt;/p&gt;&amp;mdash; 出版甲子園公式アカウント (@shuppankoushien) &lt;a href=&#34;https://twitter.com/shuppankoushien/status/1868163851021373906?ref_src=twsrc%5Etfw&#34;&gt;December 15, 2024&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;出版甲子園とは&#34;&gt;出版甲子園とは&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;出版甲子園&lt;/strong&gt;は、出版甲子園実行委員会という&lt;strong&gt;早稲田大学の公認サークル&lt;/strong&gt;が行っている大会で、以下が公式サイトの説明です。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出版甲子園は &lt;strong&gt;「学生の、学生による、学生のための出版コンペティション」&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;私たち実行委員会は、全国から「こんな本を書きたい！」という出版企画を募集し、&lt;strong&gt;商業出版へとつなげる&lt;/strong&gt;活動をしております。&lt;/p&gt;
+&lt;p&gt;2005年に団体が設立されてより、&lt;strong&gt;43冊の本&lt;/strong&gt;が出版甲子園を通して世に送り出されてきました。(2024年7月31日時点)&lt;/p&gt;
+&lt;p&gt;応募資格はただ１つ、 &lt;strong&gt;『学生』&lt;/strong&gt; であること！&lt;/p&gt;
+&lt;p&gt;二度の審査を通過した約10企画には&lt;strong&gt;出版の可能性&lt;/strong&gt;が生まれます。&lt;/p&gt;
+&lt;p&gt;また、三度目の審査を通過した上位企画はコンペティションイベント &lt;strong&gt;「出版甲子園決勝大会」&lt;/strong&gt; への出場権を獲得。&lt;/p&gt;
+&lt;p&gt;出版業界の最前線で活躍する敏腕編集者・書店員の審査員や多くの観客の前で&lt;strong&gt;企画をプレゼン&lt;/strong&gt;するチャンスが与えられます。&lt;/p&gt;
+&lt;p&gt;審査や決勝大会を通じて編集者の目にとまった企画は&lt;strong&gt;商業出版を目指して&lt;/strong&gt;動き出します。
+&lt;a href=&#34;https://spk.picaso.jp/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+  &lt;div class=&#34;link-card&#34;&gt;
+    &lt;div class=&#34;link-card-content&#34;&gt;
+      &lt;div class=&#34;link-card-title&#34;&gt;出版甲子園とは | 出版甲子園&lt;/div&gt;&lt;div class=&#34;link-card-hostname&#34;&gt;
+        
+        &lt;div class=&#34;link-card-hostname-img&#34;&gt;
+          &lt;img alt=&#34;icon&#34; src=&#34;https://spk.picaso.jp/wordpress/wp-content/uploads/2022/12/cropped-logo-favicon-32x32.png&#34;&gt;
+        &lt;/div&gt;
+        
+        &lt;span&gt;spk.picaso.jp&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;要約すると、&lt;strong&gt;「学生が、本の出版を目指して、企画をプレゼンする大会」&lt;/strong&gt; です。&lt;/p&gt;
+&lt;h2 id=&#34;なんで私が出版甲子園に&#34;&gt;なんで、私が出版甲子園に!?&lt;/h2&gt;
+&lt;p&gt;私と出版甲子園との出会いは、前回(2023年)の&lt;strong&gt;第19回出版甲子園&lt;/strong&gt;でした。&lt;/p&gt;
+&lt;p&gt;普段からよく見る &lt;strong&gt;「QuizKnock」&lt;/strong&gt; の&lt;strong&gt;河村拓哉&lt;/strong&gt;さんが出演するとのことで、&lt;strong&gt;「こんな大会があるんだ～」&lt;/strong&gt; と知りました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>19歳になって、2024年を振り返って</title>
-      <link>https://3.14159.jp/posts/20241102_birthday_renewal/</link>
+      <link>http://localhost:1313/posts/20241102_birthday_renewal/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0900</pubDate>
-      <guid>https://3.14159.jp/posts/20241102_birthday_renewal/</guid>
-      <description>今日、11月2日で19歳を迎えることになりました。 いつも私の周りで支えてくださった皆様、本当にありがとうございます。
-19歳というと、少年法で定める特定少年の最後の年、20歳一歩手前ですね。
-さて、この節目で今年行ったことをまとめます！
-（ちなみに書き始めたのが、公開前日である11月1日の22時なので、校正をしてなければ、読み返してすらいないのであしからず。）
-2024年1月、ビブリオバトル 私が所属する学校で「ビブリオバトル」があり、参加させていただきました。
-令和5年度第2回ビブリオバトル体験ゼミナールを開催しましたwww.nagano-nct.ac.jpチャンプ本に選ばれ、目録を受け取る私(左)。（上記サイトより引用） 紹介させていただいたのは、こちらの 『裏切りと嫉妬の「自民党抗争史」』 です。
-書影（講談社BOOK倶楽部サイトより引用） なんか、 「学校」 という公の場で政治に関する本、しかも 「昔の自民党」 というニッチな部分の本を紹介するのは少し躊躇したんですが、熱意で押し切ったら 「チャンプ本」 に選ばれました！
-たぶん、長野高専のWebサイトに初めて、 「自民党」という単語が記録されたことでしょう。すみません。
-それはさておき、当日その場にいた皆さん、ありがとうございました！
-2024年3月、フィジーちょい留学 3月に1週間とちょっとの間、オセアニアの小さい島国であるフィジーに母と一緒に超短期の語学留学的な旅行に行きました。
-いろいろ面白いことはあったんですが、気になる人はリアルで聞いてくれば、何か答えます。
-2024年7月、ビブリオバトル　その２ 「また来たか、こいつ」と見られていたのは確かだと思う。
-また来ちゃいました。
-ビブリオバトル体験ゼミナールを開催しましたwww.nagano-nct.ac.jp次はどんな変態な本を紹介するのかと思いきや、直近で読んだ本当に良かった本を紹介。それがこちらの 『ある行旅死亡人の物語』 です。
-書影（毎日新聞出版サイトより引用） これは本当に読んでほしい。
-僕自身、本はすき間時間に読むものなんですが、この本は空きコマの90分間で7割くらい一気に読んでしまい、授業が終わったらすぐに読むのを再開したほど、引きずり込まれた本です。
-これも熱意で押し切ったら 「チャンプ本」 に選んでいただき、2連覇させていただきました。
-チャンプ本に選ばれた際のコメントでも言ったんですが、私は出禁になるまでビブリオバトルには出たいと思っているので、次回参加される方はよろしくお願いします。 私は、紹介しがいのある本ばっかり読んでます。
-ちなみに、上で紹介した『裏切りと嫉妬の「自民党抗争史」』と共に『ある行旅死亡人の物語』も長野高専の図書館に所蔵されているので、関係者の方はぜひ。
-2024年9月、「大本営発表データベース」を公表 9月1日に、高専キャリアさんのイベントである 「高専キャリア起業部2024 夏の全国大会」 に参加させていただきました。
-高専キャリア起業部2024 夏の全国大会 特設サイトkosen-career.techその中の一企画である 「高専キャリア起業部ピッチ」 というものに応募し、発表させていただきました。
-最高の高専力を発揮せよ!!「高専キャリア起業部ピッチ」の登壇者13名が決定!! - 高専キャリア研究所kosen-career.techわたし（上記高専キャリアサイトより引用） これがきっかけで、ネットの大海に実名と顔が放流されたので、今は割り切って自分をさらけ出しています。
-発表した内容は、 「大本営発表データベース」 の構想と、プロトタイプを発表させていただきました。
-高専キャリア起業部ピッチ 〜目指せ高専界隈最高峰！作ったものLT発表会〜
-11人目
-長野高専</description>
+      <guid>http://localhost:1313/posts/20241102_birthday_renewal/</guid>
+      <description>&lt;p&gt;今日、11月2日で&lt;strong&gt;19歳を迎えることになりました。&lt;/strong&gt;
+いつも私の周りで支えてくださった皆様、本当にありがとうございます。&lt;/p&gt;
+&lt;p&gt;19歳というと、&lt;strong&gt;少年法で定める特定少年&lt;/strong&gt;の最後の年、&lt;strong&gt;20歳一歩手前&lt;/strong&gt;ですね。&lt;/p&gt;
+&lt;p&gt;さて、この節目で今年行ったことをまとめます！&lt;/p&gt;
+&lt;p&gt;（ちなみに書き始めたのが、&lt;strong&gt;公開前日である11月1日の22時&lt;/strong&gt;なので、校正をしてなければ、読み返してすらいないのであしからず。）&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2024年1月ビブリオバトル&#34;&gt;2024年1月、ビブリオバトル&lt;/h2&gt;
+&lt;p&gt;私が所属する学校で「ビブリオバトル」があり、参加させていただきました。&lt;/p&gt;
+&lt;a href=&#34;https://www.nagano-nct.ac.jp/news/240201&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+  &lt;div class=&#34;link-card&#34;&gt;
+    &lt;div class=&#34;link-card-content&#34;&gt;
+      &lt;div class=&#34;link-card-title&#34;&gt;令和5年度第2回ビブリオバトル体験ゼミナールを開催しました&lt;/div&gt;&lt;div class=&#34;link-card-hostname&#34;&gt;
+        
+        &lt;div class=&#34;link-card-hostname-img&#34;&gt;
+          &lt;img alt=&#34;icon&#34; src=&#34;https://www.nagano-nct.ac.jp/hubfs/icon/favicon.ico&#34;&gt;
+        &lt;/div&gt;
+        
+        &lt;span&gt;www.nagano-nct.ac.jp&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;
+&lt;/a&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;240201-2.jpg#center&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
+            チャンプ本に選ばれ、目録を受け取る私(左)。（上記サイトより引用）
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;紹介させていただいたのは、こちらの &lt;strong&gt;『裏切りと嫉妬の「自民党抗争史」』&lt;/strong&gt; です。&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;9784062817127_w.jpg#center&#34; width=&#34;300px&#34;/&gt; &lt;figcaption&gt;
+            書影（講談社BOOK倶楽部サイトより引用）
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;なんか、 &lt;strong&gt;「学校」&lt;/strong&gt; という公の場で政治に関する本、しかも &lt;strong&gt;「昔の自民党」&lt;/strong&gt; というニッチな部分の本を紹介するのは少し躊躇したんですが、熱意で押し切ったら &lt;strong&gt;「チャンプ本」&lt;/strong&gt; に選ばれました！&lt;/p&gt;
+&lt;p&gt;たぶん、長野高専のWebサイトに初めて、 &lt;strong&gt;「自民党」という単語が記録されたことでしょう&lt;/strong&gt;。すみません。&lt;/p&gt;
+&lt;p&gt;それはさておき、当日その場にいた皆さん、ありがとうございました！&lt;/p&gt;
+&lt;h2 id=&#34;2024年3月フィジーちょい留学&#34;&gt;2024年3月、フィジーちょい留学&lt;/h2&gt;
+&lt;p&gt;3月に1週間とちょっとの間、オセアニアの小さい島国である&lt;strong&gt;フィジー&lt;/strong&gt;に母と一緒に超短期の語学留学的な旅行に行きました。&lt;/p&gt;
+&lt;p&gt;いろいろ面白いことはあったんですが、気になる人はリアルで聞いてくれば、何か答えます。&lt;/p&gt;
+&lt;h2 id=&#34;2024年7月ビブリオバトルその２&#34;&gt;2024年7月、ビブリオバトル　その２&lt;/h2&gt;
+&lt;p&gt;「また来たか、こいつ」と見られていたのは確かだと思う。&lt;/p&gt;
+&lt;p&gt;また来ちゃいました。&lt;/p&gt;
+&lt;a href=&#34;https://www.nagano-nct.ac.jp/news/240703&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+  &lt;div class=&#34;link-card&#34;&gt;
+    &lt;div class=&#34;link-card-content&#34;&gt;
+      &lt;div class=&#34;link-card-title&#34;&gt;ビブリオバトル体験ゼミナールを開催しました&lt;/div&gt;&lt;div class=&#34;link-card-hostname&#34;&gt;
+        
+        &lt;div class=&#34;link-card-hostname-img&#34;&gt;
+          &lt;img alt=&#34;icon&#34; src=&#34;https://www.nagano-nct.ac.jp/hubfs/icon/favicon.ico&#34;&gt;
+        &lt;/div&gt;
+        
+        &lt;span&gt;www.nagano-nct.ac.jp&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;
+&lt;/a&gt;
+&lt;p&gt;次はどんな変態な本を紹介するのかと思いきや、直近で読んだ本当に良かった本を紹介。それがこちらの &lt;strong&gt;『ある行旅死亡人の物語』&lt;/strong&gt; です。&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;e3a99a02a84dbcc7633aa5fe72474f65.jpg#center&#34; width=&#34;300px&#34;/&gt; &lt;figcaption&gt;
+            書影（毎日新聞出版サイトより引用）
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;これは本当に読んでほしい。&lt;/p&gt;
+&lt;p&gt;僕自身、本はすき間時間に読むものなんですが、この本は&lt;strong&gt;空きコマの90分間で7割くらい一気に読んでしまい&lt;/strong&gt;、授業が終わったらすぐに読むのを再開したほど、&lt;strong&gt;引きずり込まれた本&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;これも熱意で押し切ったら &lt;strong&gt;「チャンプ本」&lt;/strong&gt; に選んでいただき、&lt;strong&gt;2連覇&lt;/strong&gt;させていただきました。&lt;/p&gt;
+&lt;p&gt;チャンプ本に選ばれた際のコメントでも言ったんですが、私は&lt;strong&gt;出禁になるまで&lt;/strong&gt;ビブリオバトルには出たいと思っているので、次回参加される方はよろしくお願いします。
+私は、&lt;strong&gt;紹介しがいのある本ばっかり&lt;/strong&gt;読んでます。&lt;/p&gt;
+&lt;p&gt;ちなみに、上で紹介した『裏切りと嫉妬の「自民党抗争史」』と共に『ある行旅死亡人の物語』も&lt;strong&gt;長野高専の図書館に所蔵されている&lt;/strong&gt;ので、関係者の方はぜひ。&lt;/p&gt;
+&lt;h2 id=&#34;2024年9月大本営発表データベースを公表&#34;&gt;2024年9月、「大本営発表データベース」を公表&lt;/h2&gt;
+&lt;p&gt;9月1日に、高専キャリアさんのイベントである &lt;strong&gt;「高専キャリア起業部2024 夏の全国大会」&lt;/strong&gt; に参加させていただきました。&lt;/p&gt;
+&lt;a href=&#34;https://kosen-career.tech/lp/2024summer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+  &lt;div class=&#34;link-card&#34;&gt;
+    &lt;div class=&#34;link-card-content&#34;&gt;
+      &lt;div class=&#34;link-card-title&#34;&gt;高専キャリア起業部2024 夏の全国大会 特設サイト&lt;/div&gt;&lt;div class=&#34;link-card-hostname&#34;&gt;
+        
+        &lt;div class=&#34;link-card-hostname-img&#34;&gt;
+          &lt;img alt=&#34;icon&#34; src=&#34;https://storage.googleapis.com/production-os-assets/assets/1d407bed-e2ab-40e1-8376-ecd161afba08&#34;&gt;
+        &lt;/div&gt;
+        
+        &lt;span&gt;kosen-career.tech&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;
+&lt;/a&gt;
+&lt;p&gt;その中の一企画である &lt;strong&gt;「高専キャリア起業部ピッチ」&lt;/strong&gt; というものに応募し、発表させていただきました。&lt;/p&gt;
+&lt;a href=&#34;https://kosen-career.tech/news/2024summer-pitch-presenter&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+  &lt;div class=&#34;link-card&#34;&gt;
+    &lt;div class=&#34;link-card-content&#34;&gt;
+      &lt;div class=&#34;link-card-title&#34;&gt;最高の高専力を発揮せよ!!「高専キャリア起業部ピッチ」の登壇者13名が決定!! ｜高専キャリア&lt;/div&gt;&lt;div class=&#34;link-card-hostname&#34;&gt;
+        
+        &lt;div class=&#34;link-card-hostname-img&#34;&gt;
+          &lt;img alt=&#34;icon&#34; src=&#34;https://storage.googleapis.com/production-os-assets/assets/1d407bed-e2ab-40e1-8376-ecd161afba08&#34;&gt;
+        &lt;/div&gt;
+        
+        &lt;span&gt;kosen-career.tech&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;
+&lt;/a&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;s-1200x630_v-fms_webp_cafcfbb7-601c-45a0-8e07-ef278dcccf4e_middle.webp#center&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
+            わたし（上記高専キャリアサイトより引用）
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;これがきっかけで、&lt;strong&gt;ネットの大海に実名と顔が放流された&lt;/strong&gt;ので、今は割り切って自分をさらけ出しています。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

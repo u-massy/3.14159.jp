@@ -72,4 +72,15 @@ Sep. 1st, 2024
 {{% fontsize 0.75 "Received \"[Second Prize](https://x.com/kosen_career/status/1830141553425432875)\" and \"[Audience Prize](https://x.com/kosen_career/status/1830141253125898271)\" for the \"[Database for the Imperial Headquarters](https://daihon-ei.jp) (under development)\"." %}}
 {{% fontsize 0.75 "Click [here](https://www.docswell.com/s/massy1102/KV1114-20240901-daihon-ei) to see the slides used on the day." %}}
 
+Oct. 2024  
+**Developed AR ghost hunting game for cultural festival**
+{{% fontsize 0.75 "Created using AR.js and A-Frame, the game is to catch as many ghosts as possible within a time limit by pointing the camera at the AR markers." %}}
 
+Dec. 15th, 2024  
+**[The 20th Publication Koshien Final](https://spk.picaso.jp/), Second Grand Prix**
+{{% fontsize 0.75 "A young man who loves Japanese history presents his project “[18 years old, chasing after his great-grandfather who died in the war](https://gakumado.mynavi.jp/gmd/articles/77245)”, in which he follows his great-grandfather who died in the war through the records left behind; after three rounds of preliminary screening, he advances to the final competition. Won the semi-grand prize." %}}
+
+Dec. 28th, 2024    
+**Released the “[Database of the Imperial General Headquarters† Announcement](https://daihon-ei.jp)”**
+{{% fontsize 0.75 "Presented a web application using Next.js in the LT presentation at the National Convention of Colleges of Technology Career 2024 Winter" %}}
+{{% fontsize 0.75 "† The Imperial General Headquarters (大本営, Daihon'ei) was part of the Supreme War Council and was established in 1893 to coordinate efforts between the Imperial Japanese Army and Imperial Japanese Navy during wartime." %}}

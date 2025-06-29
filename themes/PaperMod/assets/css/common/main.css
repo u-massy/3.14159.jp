@@ -1,3 +1,4 @@
+
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
@@ -115,4 +116,3 @@ margin-right: 1em;
 .link-card-hostname span {
 font-size: 0.9em;
 }
-  

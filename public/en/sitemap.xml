@@ -2,114 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://3.14159.jp/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2023-07-15T13:24:42+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="toki-pona"
+                href="http://localhost:1313/toki-pona/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/socials/</loc>
+    <loc>http://localhost:1313/en/socials/</loc>
     <lastmod>2023-07-15T13:24:42+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/socials/"
+                href="http://localhost:1313/socials/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/socials/"
+                href="http://localhost:1313/en/socials/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/archives/</loc>
+    <loc>http://localhost:1313/en/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/archives/"
+                href="http://localhost:1313/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="toki-pona"
+                href="http://localhost:1313/toki-pona/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/archives/"
+                href="http://localhost:1313/en/archives/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/categories/"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="toki-pona"
+                href="http://localhost:1313/toki-pona/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/history/</loc>
+    <loc>http://localhost:1313/en/history/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/history/"
+                href="http://localhost:1313/history/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/history/"
+                href="http://localhost:1313/en/history/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/profile/</loc>
+    <loc>http://localhost:1313/en/profile/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/profile/"
+                href="http://localhost:1313/profile/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/profile/"
+                href="http://localhost:1313/en/profile/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/search/</loc>
+    <loc>http://localhost:1313/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/search/"
+                href="http://localhost:1313/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="toki-pona"
+                href="http://localhost:1313/toki-pona/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/search/"
+                href="http://localhost:1313/en/search/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/skills/</loc>
+    <loc>http://localhost:1313/en/skills/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/skills/"
+                href="http://localhost:1313/skills/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/skills/"
+                href="http://localhost:1313/en/skills/"
                 />
   </url><url>
-    <loc>https://3.14159.jp/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://3.14159.jp/tags/"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="toki-pona"
+                href="http://localhost:1313/toki-pona/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://3.14159.jp/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url>
 </urlset>

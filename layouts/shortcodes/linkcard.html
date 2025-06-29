@@ -3,66 +3,123 @@
 
 {{- $title := "" -}}
 {{- $favicon_url := "" -}}
+{{- $description := "" -}}
+{{- $image_url := "" -}}
 
-{{- with $result := resources.GetRemote $url -}}
-    {{- with $result.Err -}}
-      {{- $title = (print $url "にアクセスできませんでした") -}}
-    {{- else -}}
-        <!-- headを取得 -->
-        {{- $head := index (findRE "<head[^>]*?>(.|\n)*?</head>" $result.Content) 0 -}}
+{{- /* リモートリソースの取得を試みる */ -}}
+{{- $remoteResource := resources.GetRemote $url -}}
 
-        <!-- headからタイトルを取得 -->
-        {{- $title = index (findRE "<title.*?>(.|\n)*?</title>" $head) 0 -}}
-        {{- if $title -}}
-          {{- $title = replaceRE "</?title>" "" $title -}}
+{{- /* $remoteResource が nil でなければ処理を進める */ -}}
+{{- if $remoteResource -}}
+    {{- /* $remoteResource が有効な Resource オブジェクトであれば .Content にアクセス */ -}}
+    {{- $content := $remoteResource.Content -}}
+
+    {{- /* headタグの内容を取得 */ -}}
+    {{- $headMatch := findRE "<head[^>]*?>(.|\n)*?</head>" $content -}}
+    {{- if gt (len $headMatch) 0 -}}
+        {{- $head := index $headMatch 0 -}}
+
+        {{- /* タイトルを取得 */ -}}
+        {{- $extractedTitleMatch := findRE "<title.*?>(.|\n)*?</title>" $head -}}
+        {{- if gt (len $extractedTitleMatch) 0 -}}
+            {{- $title = replaceRE "</?title>" "" (index $extractedTitleMatch 0) -}}
         {{- end -}}
 
-        <!-- headからfaviconを取得 -->
-        {{- $linktag := index (findRE "<link[^<>]*rel=[\"']?icon[\"']?.*?>" $head) 0 -}}
-        {{- if not $linktag -}}
-          {{- $linktag = index (findRE "<link[^<>]*?rel=[\"']?shortcut icon[\"']?.*?>" $head) 0 -}}
-        {{- end -}}
-        {{- if $linktag -}}
-          {{- $href := index (findRE "href=[\"']?[^ >]*[\"']?" $linktag) 0 -}}
-          {{- $href = replace $href "href=" "" | replaceRE "[\"']" "" -}}
-          {{- if eq (strings.Substr $href 0 1) "/"  -}}
-            {{- $favicon_url = print $target_url.Scheme "://" $target_url.Hostname $href -}}
-          {{- else if gt (len (findRE "^http[s]?://" $href)) 0 -}}
-            {{- $favicon_url = $href -}}
-          {{- end -}}
+        {{- /* meta description を取得 */ -}}
+        {{- $metaDescMatch := findRE "<meta[^>]*?name=[\"']?description[\"']?[^>]*?content=[\"']?(.*?)[\"']?[^>]*?>" $head -}}
+        {{- if gt (len $metaDescMatch) 0 -}}
+            {{- $metaDesc := index $metaDescMatch 0 -}}
+            {{- $description = index (findRE "content=[\"']?(.*?)[\"']?" $metaDesc) 0 | replaceRE "content=[\"']?" "" | replaceRE "[\"']" "" -}}
         {{- end -}}
 
-        <!-- /favicon.icoを取得 -->
-        {{- if not $favicon_url -}}
-          {{- range $favicon_ext := (slice ".ico" ".png" ".gif") -}}
-            {{- $root_favicon_path := print $target_url.Scheme "://" $target_url.Hostname "/favicon" $favicon_ext -}}
-            {{- $favicon := resources.GetRemote $root_favicon_path -}}
-           {{- if not $favicon -}}
-             {{- continue -}}
-           {{- else -}}
-             {{- $favicon_url = $root_favicon_path -}}
-             {{- break -}}
+        {{- /* og:image を取得 */ -}}
+        {{- $ogImageMatch := findRE "<meta[^>]*?property=[\"']?og:image[\"']?[^>]*?content=[\"']?(.*?)[\"']?[^>]*?>" $head -}}
+        {{- if gt (len $ogImageMatch) 0 -}}
+            {{- $ogImage := index $ogImageMatch 0 -}}
+            {{- $image_url = index (findRE "content=[\"']?(.*?)[\"']?" $ogImage) 0 | replaceRE "content=[\"']?" "" | replaceRE "[\"']" "" -}}
+        {{- end -}}
+
+        {{- /* faviconを取得 */ -}}
+        {{- $linktagMatch := findRE "<link[^<>]*rel=[\"']?icon[\"']?.*?>" $head -}}
+        {{- if gt (len $linktagMatch) 0 -}}
+            {{- $linktag := index $linktagMatch 0 -}}
+            {{- $hrefMatch := findRE "href=[\"']?[^ >]*[\"']?" $linktag -}}
+            {{- if gt (len $hrefMatch) 0 -}}
+                {{- $href := index $hrefMatch 0 -}}
+                {{- $href = replace $href "href=" "" | replaceRE "[\"']" "" -}}
+                {{- if eq (strings.Substr $href 0 1) "/"  -}}
+                    {{- $favicon_url = print $target_url.Scheme "://" $target_url.Hostname $href -}}
+                {{- else if gt (len (findRE "^http[s]?://" $href)) 0 -}}
+                    {{- $favicon_url = $href -}}
+                {{- end -}}
             {{- end -}}
-          {{- end -}}
+        {{- else -}}
+            {{- $linktagMatch = findRE "<link[^<>]*?rel=[\"']?shortcut icon[\"']?.*?>" $head -}}
+            {{- if gt (len $linktagMatch) 0 -}}
+                {{- $linktag := index $linktagMatch 0 -}}
+                {{- $hrefMatch := findRE "href=[\"']?[^ >]*[\"']?" $linktag -}}
+                {{- if gt (len $hrefMatch) 0 -}}
+                    {{- $href := index $hrefMatch 0 -}}
+                    {{- $href = replace $href "href=" "" | replaceRE "[\"']" "" -}}
+                    {{- if eq (strings.Substr $href 0 1) "/"  -}}
+                        {{- $favicon_url = print $target_url.Scheme "://" $target_url.Hostname $href -}}
+                    {{- else if gt (len (findRE "^http[s]?://" $href)) 0 -}}
+                        {{- $favicon_url = $href -}}
+                    {{- end -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}} {{/* if gt (len $headMatch) 0 の終わり */}}
+
+    {{- /* /favicon.icoなどを確認 (ただし、$favicon_urlがまだ設定されていない場合のみ) */ -}}
+    {{- if not $favicon_url -}}
+        {{- range $favicon_ext := (slice ".ico" ".png" ".gif") -}}
+            {{- $root_favicon_path := print $target_url.Scheme "://" $target_url.Hostname "/favicon" $favicon_ext -}}
+            {{- $faviconRemote := resources.GetRemote $root_favicon_path -}}
+            {{- if $faviconRemote -}} {{/* ここも nil チェック */}}
+                {{- $favicon_url = $root_favicon_path -}}
+                {{- break -}}
+            {{- end -}}
         {{- end -}}
     {{- end -}}
+
+{{- else -}}
+    {{- /* リモートリソースの取得に失敗した場合の処理 */ -}}
+    {{- $title = (print $url "にアクセスできませんでした") -}}
+    {{- $description = "このリンクの情報を取得できませんでした。" -}}
 {{- end -}}
 
-<!-- HTMLを生成 -->
-<a href="{{- htmlUnescape $target_url -}}">
+{{- /* タイトルが空の場合のフォールバック */ -}}
+{{- if not $title -}}
+    {{- $title = $target_url.Host -}}
+{{- end -}}
+
+<a href="{{- htmlUnescape $target_url -}}" target="_blank" rel="noopener noreferrer">
   <div class="link-card">
-    <div class="link-card-title">
-      {{- $title | htmlUnescape | truncate 100 -}}
-    </div>
-    <div class="link-card-hostname">
-      {{ if $favicon_url }}
-      <div class="link-card-hostname-img">
-        <img alt="icon" src="{{- $favicon_url -}}">
+    <div class="link-card-content">
+      <div class="link-card-title">
+        {{- $title | htmlUnescape | truncate 100 -}}
       </div>
-      {{ end }}
-      <span>
-        {{- $target_url.Hostname -}}
-      </span>
+      {{- if $description -}}
+      <div class="link-card-description">
+        {{- $description | htmlUnescape | truncate 150 -}}
+      </div>
+      {{- end -}}
+      <div class="link-card-hostname">
+        {{ if $favicon_url }}
+        <div class="link-card-hostname-img">
+          <img alt="icon" src="{{- $favicon_url -}}">
+        </div>
+        {{ end }}
+        <span>
+          {{- $target_url.Hostname -}}
+        </span>
+      </div>
     </div>
+    {{- if $image_url -}}
+    <div class="link-card-image">
+      <img src="{{- $image_url -}}" alt="{{- $title | htmlUnescape -}}">
+    </div>
+    {{- end -}}
   </div>
 </a>

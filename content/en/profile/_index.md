@@ -3,7 +3,7 @@ title: "Profile"
 draft: false
 ---
 ## Name
-Masashi Ushitani
+USHITANI Masashi
 
 ## Age
 19

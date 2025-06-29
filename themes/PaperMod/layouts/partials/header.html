@@ -105,10 +105,13 @@
                     {{- if ne $lang .Lang }}
                     <li>
                         <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                            aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                            {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                            aria-label="{{ .Language.LanguageName | default (.Lang | title) }}"
+                            {{ if eq .Lang "toki-pona" }}class="linja-pona" style="font-size:120%"{{ end }}>
+                            {{- if eq .Lang "toki-pona" -}}
+                            toki+pona
+                            {{- else if (and site.Params.displayFullLangName (.Language.LanguageName)) -}}
                             {{- .Language.LanguageName | emojify -}}
-                            {{- else }}
+                            {{- else -}}
                             {{- .Lang | title -}}
                             {{- end -}}
                         </a>

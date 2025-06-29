@@ -101,8 +101,8 @@ languages:
             url: /history/
           - name: スキル
             url: /skills/
-          - name: 大本營發表DB
-            url: https://daihon-ei.jp
+          - name: 大本営発表データベース
+            url: https://db.daihon-ei.jp
           - name: アーカイブ
             url: /archives/
     menu:
@@ -152,6 +152,32 @@ languages:
           weight: 20
         - name: Socials
           url: /en/socials/
+          weight: 25
+
+  toki-pona:
+    languageName: "toki pona"
+    weight: 3
+    contentDir: content/toki-pona
+    staticDir: static/
+    params:
+      profileMode:
+        title: mi jan [_mani_awen_suno_ilo]
+        subtitle: sina toki pona
+        buttons:
+          - name: toki mi
+            url: /toki-pona/toki-mi/
+          - name: pona wawa mi
+            url: /toki-pona/pona-wawa-mi/
+    menu:
+      main:
+        - name: toki mi
+          url: /toki-pona/toki-mi/
+          weight: 15
+        - name: pona wawa mi
+          url: /toki-pona/pona-wawa-mi/
+          weight: 20
+        - name: ilo mi
+          url: /toki-pona/ilo-mi/
           weight: 25
 
 markup:
