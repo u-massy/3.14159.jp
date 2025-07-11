@@ -3,14 +3,15 @@ title: "Skills"
 draft: false
 ---
 
-## Frontend
-PHP, HTML5, CSS, JavaScript
-
-## Backend
-SQL
-
-## Tools
-GitHub, VSCode, Adobe Premiere Pro
+## Programming
+- Next.js
+- React
+- PHP
+- HTML/CSS
+- JavaScript
+- TypeScript
+- SQL
 
 ## Docs
-LaTeX, Microsoft Word
+- LaTeX
+- Microsoft Word

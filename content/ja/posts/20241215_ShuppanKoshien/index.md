@@ -7,6 +7,14 @@ ShowToc: true
 TocOpen: false
 ShowShareButtons: true
 ShareButtons: ['x','facebook','clipboard']
+cover:
+  image: "./20251215.jpeg"
+  # can also paste direct link from external site
+  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  alt: "<alt text>"
+  caption: "<text>"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
+
 ---
 
 この記事は「[長野高専アドベントカレンダー2024](https://qiita.com/advent-calendar/2024/nnct)」の18日目の記事となっています！

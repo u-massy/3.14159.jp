@@ -94,7 +94,7 @@
     {{- end }}
     {{- if (cond ($custom) (in $ShareButtons "clipboard") (true)) }}
     <li>
-        <button type="button" id="copy-page-title-and-url">クリップボードに記事タイトルとURLをコピーする</button>
+        <button type="button" id="copy-page-title-and-url">{{- if eq .Lang "en" -}}Copy article title and URL to clipboard{{- else -}}クリップボードに記事タイトルとURLをコピーする{{- end }}</button>
     </li>
     {{- end }}
 </ul>
@@ -106,7 +106,7 @@
         navigator.clipboard.writeText('{{ $title }} - {{ $pageurl }}').then(
             () => {
                 const beforeText = copyButton.textContent
-                copyButton.textContent = 'コピーしました！'
+                copyButton.textContent = '{{- if eq .Lang "en" -}}Copied!{{- else -}}コピーしました！{{- end }}'
                 setTimeout(() => {
                     copyButton.textContent = beforeText
                 }, 1000)

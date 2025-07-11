@@ -1,0 +1,10 @@
+{{ $birthDateStr := .Get 0 }}
+{{ $birthDate := time $birthDateStr }}
+{{ $now := now }}
+{{ $age := sub $now.Year $birthDate.Year }}
+{{ $yearDiff := sub $now.Year $birthDate.Year }}
+{{ $anniversary := $birthDate.AddDate (int $yearDiff) 0 0 }}
+{{ if $now.Before $anniversary }}
+  {{ $age = sub $age 1 }}
+{{ end }}
+{{ $age }}

@@ -1,86 +1,89 @@
 ---
-title: "History"
+title: "My History"
 draft: false
 ---
 
 ---
 
-Nov. 2nd, 2005  
-**Birth**  
+November 2, 2005  
+**Birthday**  
 {{% fontsize 0.75 "Same birthday as [Marie Antoinette](https://en.wikipedia.org/wiki/Marie_Antoinette), Queen of France" %}}
 
 ---
 
-Nov. 2017  
-**Beginning [Scratch](https://scratch.mit.edu)**  
-{{% fontsize 0.75 "This is where they begin to “program” and find it fun." %}}
+November 2017  
+**Started learning [Scratch](https://scratch.mit.edu)**  
+{{% fontsize 0.75 "This marked the beginning of my programming journey, and I found it enjoyable." %}}
 
 ---
 
-Jun. 2019  
-**Participated in [Shinshu Makers Class](https://www.futurecraft.jp/weblog/14237/) for Junior High School Students**
-{{% fontsize 0.75 "Passed through to 2nd place in the East Shinshu region." %}}
-{{% fontsize 0.75 "Will participate in the Shinshu Makers Camp, the main competition." %}}   
+June 2019  
+**Participated in the [Shinshu Makers Classroom](https://www.futurecraft.jp/weblog/14237/) (Junior High School Division)**
+{{% fontsize 0.75 "Passed the preliminary round in the Toshingi area, securing 2nd place." %}}
+{{% fontsize 0.75 "Qualified for the main competition, the Shinshu Makers Camp." %}}   
 
-Aug. 2019  
-**Participation in [Shinshu Makers Camp](https://www.futurecraft.jp/weblog/14247/) Junior High School Division**
-{{% fontsize 0.75 "Competition that corresponds to “The 7th Science Koshien Junior National Competition Nagano Pref." %}} 
-{{% fontsize 0.75 "Nagano Prefecture 1st place → Going to “The 7th Science Koshien Junior National Competition”." %}}
+August 2019  
+**Participated in the [Shinshu Makers Camp](https://www.futurecraft.jp/weblog/14247/) (Junior High School Division)**
+{{% fontsize 0.75 "This competition was equivalent to the \"7th Science Koshien Junior National Tournament, Nagano Prefectural Qualifiers.\"" %}} 
+{{% fontsize 0.75 "Secured 1st place in Nagano Prefecture, advancing to the \"7th Science Koshien Junior National Tournament.\"" %}}
 
-Dec. 2019  
-**Participated in [the 7th Koshien of Science Junior National Competition](https://koushien.jst.go.jp/koushien-Jr/report/2019/index.html)**
-{{% fontsize 0.75 "Participated as a member of the Nagano Prefectural team." %}}
-
----
-
-Jul. 2020 - 2021/03  
-**Participated in the 2nd Shinshu University Junior Doctor Training School**
-{{% fontsize 0.75 "I participated in the program when I was in the third year of junior high school, a student preparing for an entrance examination. I was the only one in the same grade." %}}
+December 2019  
+**Participated in [the 7th Science Koshien Junior National Tournament](https://koushien.jst.go.jp/koushien-Jr/report/2019/index.html)**
+{{% fontsize 0.75 "Participated as a member representing Nagano Prefecture." %}}
 
 ---
 
-Apr. 2021  
-**Entered National Institute of Technology, Nagano College**  
-{{% fontsize 0.75 "Department of Electronic Information Engineering" %}}
-
-Jul. 2021 - Oct. 2021  
-**Developed a stamp rally app for a cultural festival.**  
-{{% fontsize 0.75 "Learn the basics of PHP, SQL, HTML, CSS, and Javascript here." %}}
+July 2020 - March 2021  
+**Participated in the 2nd Term Shinshu University Junior Doctor Training Program**
+{{% fontsize 0.75 "I participated in this program while I was a 3rd-year junior high school student preparing for entrance exams. I was the only student from my grade level." %}}
 
 ---
 
-Jul. 2022 - Oct. 2022    
-**Developed a stamp rally app for a cultural festival (2nd year).**  
-{{% fontsize 0.75 "Started to create more practical web apps such as Google login function." %}}
+April 2021  
+**Enrolled in Nagano National College of Technology (KOSEN)**  
+{{% fontsize 0.75 "Department of Electronic and Information Engineering." %}}
+
+July 2021 - October 2021  
+**Developed a stamp rally application for the school festival.**  
+{{% fontsize 0.75 "During this period, I learned the basics of PHP, SQL, HTML, CSS, and JavaScript." %}}
 
 ---
 
-Jul. 1st, 2023  
-**[Shinshu Hackathon in Nagano, Japan](https://ailab-corp.connpass.com/event/285350/) - Best Collaboration Award**
-{{% fontsize 0.75 "I was in charge of the front-end and back-end of the system." %}}
-
-
-Jul. 2023 - Oct. 2023  
-**Developed an app for the school's 60th anniversary project for the cultural festival (3rd year).**  
-{{% fontsize 0.75 "An app where users read QR codes and accomplish missions. The content is similar to the stamp rally app, but the UI was revamped." %}}
+July 2022 - October 2022  
+**Developed a stamp rally application for the school festival (2nd year).**  
+{{% fontsize 0.75 "Began creating more practical web applications, including Google login functionality." %}}
 
 ---
 
-Sep. 1st, 2024  
-**[Kosen Career Entrepreneurship Club National Competition in Summer 2024](https://kosen-career.tech/lp/2024summer)** 
+July 1, 2023  
+**Awarded the "Best Collaboration Prize" at [the Shinshu Hackathon in Nagano](https://ailab-corp.connpass.com/event/285350/).**
+{{% fontsize 0.75 "I was responsible for both the front-end and back-end of the system." %}}
 
-{{% fontsize 0.75 "Received \"[Second Prize](https://x.com/kosen_career/status/1830141553425432875)\" and \"[Audience Prize](https://x.com/kosen_career/status/1830141253125898271)\" for the \"[Database for the Imperial Headquarters](https://daihon-ei.jp) (under development)\"." %}}
-{{% fontsize 0.75 "Click [here](https://www.docswell.com/s/massy1102/KV1114-20240901-daihon-ei) to see the slides used on the day." %}}
 
-Oct. 2024  
-**Developed AR ghost hunting game for cultural festival**
-{{% fontsize 0.75 "Created using AR.js and A-Frame, the game is to catch as many ghosts as possible within a time limit by pointing the camera at the AR markers." %}}
+July 2023 - October 2023  
+**Developed an application for the school festival's 60th-anniversary project (3rd year).**  
+{{% fontsize 0.75 "This application involved scanning QR codes to complete missions. While similar in content to the stamp rally app, the UI was completely revamped." %}}
 
-Dec. 15th, 2024  
-**[The 20th Publication Koshien Final](https://spk.picaso.jp/), Second Grand Prix**
-{{% fontsize 0.75 "A young man who loves Japanese history presents his project “[18 years old, chasing after his great-grandfather who died in the war](https://gakumado.mynavi.jp/gmd/articles/77245)”, in which he follows his great-grandfather who died in the war through the records left behind; after three rounds of preliminary screening, he advances to the final competition. Won the semi-grand prize." %}}
+---
+
+September 1, 2024  
+**Participated in [the KOSEN Career Entrepreneurship Club 2024 Summer National Competition](https://kosen-career.tech/lp/2024summer), KOSEN Career Entrepreneurship Club Pitch.** 
+
+{{% fontsize 0.75 "Awarded [\"Runner-up\"](https://x.com/kosen_career/status/1830141553425432875) and [\"Audience Award\"](https://x.com/kosen_career/status/1830141253125898271) for \"[Imperial Headquarters Announcement Database](https://db.daihon-ei.jp)[^daihon-ei] (under development).\"" %}}
+{{% fontsize 0.75 "[Click here](https://www.docswell.com/s/massy1102/KV1114-20240901-daihon-ei) for the slides used on the day." %}}
+
+October 2024  
+**Developed an AR ghost hunting game for the school festival.**
+{{% fontsize 0.75 "Created using AR.js and A-Frame. In this game, ghosts appear on the screen when the device's camera is pointed at an AR marker, and the goal is to catch as many ghosts as possible within a time limit. This was for a class project." %}}
+
+December 15, 2024  
+**Awarded the "Semi-Grand Prix" at [the 20th Publication Koshien Final Competition](https://spk.picaso.jp/).**
+{{% fontsize 0.75 "Presented a project titled [\"18 Years Old: Tracing My Grandfather Who Died in the War Through Remaining Records,\"](https://gakumado.mynavi.jp/gmd/articles/77245) where a young history enthusiast explores the persona of his grandfather who died in the war. Advanced to the final competition after three preliminary screenings and received the Semi-Grand Prix." %}}
 
 Dec. 28th, 2024    
-**Released the “[Database of the Imperial General Headquarters† Announcement](https://daihon-ei.jp)”**
-{{% fontsize 0.75 "Presented a web application using Next.js in the LT presentation at the National Convention of Colleges of Technology Career 2024 Winter" %}}
-{{% fontsize 0.75 "† The Imperial General Headquarters (大本営, Daihon'ei) was part of the Supreme War Council and was established in 1893 to coordinate efforts between the Imperial Japanese Army and Imperial Japanese Navy during wartime." %}}
+**Released the ["Imperial Headquarters Announcement Database."](https://db.daihon-ei.jp)[^daihon-ei]**
+{{% fontsize 0.75 "Presented a web application built with Next.js at the KOSEN Career 2024 Winter National Competition's LT presentation." %}}
+
+
+
+[^daihon-ei]: The Imperial General Headquarters (大本営, Daihon'ei) was part of the Supreme War Council and was established in 1893 to coordinate efforts between the Imperial Japanese Army and Imperial Japanese Navy during wartime.

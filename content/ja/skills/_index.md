@@ -3,14 +3,20 @@ title: "スキル"
 draft: false
 ---
 
-## フロントエンド
-PHP, HTML5, CSS, JavaScript
-
-## バックエンド
-SQL
+## プログラミング
+- Next.js
+- React
+- PHP
+- HTML/CSS
+- JavaScript
+- TypeScript
+- SQL
 
 ## ツール
-GitHub, VSCode, Adobe Premiere Pro
+- GitHub
+- VSCode
+- Adobe Premiere Pro
 
 ## 文書作成
-LaTeX, Microsoft Word
+- LaTeX
+- Microsoft Word
