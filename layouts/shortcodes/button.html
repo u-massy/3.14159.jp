@@ -1,0 +1,21 @@
+{{- $href := .Get "href" | default "" -}}
+{{- $target := .Get "target" | default "_blank" -}}
+{{- $content := .Inner | chomp | markdownify -}}
+
+{{- if $href -}}
+<a class="button" href="{{ $href | safeURL }}"{{ if $target }} target="{{ $target }}"{{ end }}{{ if eq $target "_blank" }} rel="noopener noreferrer"{{ end }}>
+    <span class="button-inner">
+        {{ $content }}
+        {{- if (findRE "://" $href) }}&nbsp;
+        <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14" style="display: inline-block; vertical-align: middle;">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+            <path d="M15 3h6v6"></path>
+            <path d="M10 14L21 3"></path>
+        </svg>
+        {{- end }}
+    </span>
+</a>
+{{- else -}}
+{{- errorf "button shortcode: 'href' parameter is required" -}}
+{{- end -}}

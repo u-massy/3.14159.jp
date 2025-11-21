@@ -1,0 +1,101 @@
+/* ホーム情報のカスタムレイアウト: 左に文章、右に画像 */
+.home-info-custom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.home-info-content {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.home-info-params {
+    /* homeInfoParamsの内容 */
+}
+
+.home-info-index-content {
+    /* _index.mdの内容 */
+    margin-top: 1.5rem;
+    color: var(--content, inherit);
+    font-size: 80%;
+}
+
+.home-info-index-content h2,
+.home-info-index-content h3,
+.home-info-index-content h4,
+.home-info-index-content h5,
+.home-info-index-content h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.home-info-index-content h2:first-child,
+.home-info-index-content h3:first-child {
+    margin-top: 0;
+}
+
+.home-info-index-content p {
+    margin-bottom: var(--content-gap, 20px);
+}
+
+.home-info-index-content p:last-child {
+    margin-bottom: 0;
+}
+
+.home-info-image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.home-info-book-image {
+    max-width: 85%;
+    height: auto;
+    border-radius: var(--radius, 8px);
+}
+
+/* ボタンショートコードのスタイル */
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a.button:hover {
+    opacity: 0.8;
+}
+
+/* レスポンシブ対応: モバイルでは縦に並べる */
+@media (max-width: 600px) {
+    .home-info-custom {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .home-info-content {
+        min-width: 100%;
+        width: 100%;
+        order: 1; /* モバイルでは文章を上に表示 */
+    }
+    
+    .home-info-image {
+        min-width: 100%;
+        width: 100%;
+        order: 2; /* モバイルでは画像を下に表示 */
+        justify-content: center;
+    }
+    
+    .home-info-book-image {
+        width: 90%;
+        max-width: 90%;
+    }
+}

@@ -28,6 +28,8 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  ShowWordCount: false
+
   ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: false
@@ -82,7 +84,7 @@ languages:
       author: まっしぃ
       DateFormat: "2006年1月2日"
       homeInfoParams:
-        title: ようこそ👋
+        title: ようこそ！👋
         content: 日本史オタクのへっぽこWebエンジニア
     menu:
       main:
@@ -93,17 +95,17 @@ languages:
         - name: プロフィール
           url: /profile/
           weight: 15
-        - name: 連絡先
-          url: /socials/
-          weight: 20
         - name: 自分史
           url: /history/
-          weight: 25
+          weight: 20
         - name: スキル
           url: /skills/
-          weight: 30
-        - name: 関わったもの
+          weight: 25
+        - name: 制作物･実績
           url: /works/
+          weight: 30
+        - name: 連絡先
+          url: /socials/
           weight: 35
         - identifier: search
           name: 検索
@@ -129,19 +131,23 @@ languages:
       main:
         - name: Posts
           url: /en/posts/
-          weight: 5
-        - name: My History
-          url: /en/history/
           weight: 10
         - name: Profile
           url: /en/profile/
           weight: 15
+        - name: My History
+          url: /en/history/
+          weight: 20
         - name: Skills
           url: /en/skills/
-          weight: 20
+          weight: 25
         - name: Socials
           url: /en/socials/
-          weight: 25
+          weight: 35
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 40
         - identifier: archives
           name: Archives
           url: /en/archives/

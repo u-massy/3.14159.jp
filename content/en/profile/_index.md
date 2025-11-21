@@ -3,13 +3,13 @@ title: "Profile"
 draft: false
 ---
 ## Name
-USHITANI Masashi
+Masashi USHITANI
 
 ## Age
 19
 
 ## Birthday
-November 2nd, 2005
+November 2, 2005
 
 ## School
 National Institute of Technology, Nagano College
