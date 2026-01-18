@@ -1,6 +1,6 @@
 ---
 title: "現役高専生が、商業出版した話。"
-date: 2025-12-27T20:02:00+09:00
+date: 2025-12-17T20:02:00+09:00
 tags: [""]
 ShowToc: true
 TocOpen: false
