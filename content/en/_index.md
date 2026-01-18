@@ -2,7 +2,7 @@
 title: "Welcome!"
 date: 2024-10-09T04:08:50+09:00
 draft: false
-description: ""
+description: "Website of Masashi Ushitani. Information about the book 'The War That Didn't End on August 15: Tracing My Great-Grandfather Who Fell in the Battle of Shumshu' (Seishun Publishing), Imperial Headquarters Announcement Database, and more."
 ---
 
 ## 📘 I Published My First Book!!

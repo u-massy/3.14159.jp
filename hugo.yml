@@ -18,12 +18,20 @@ minify:
   minifyOutput: true
 
 params:
-  description: "Portfolio of Massy, a student web developer"
-  keywords: [Massy, Portfolio, Pi]
+  description: "牛谷雅のサイト。著書『8月15日に終わらなかった戦争 「占守島の戦い」で散った曾祖父を追う』（青春出版社）、大本営発表データベースなどの情報を掲載。"
+  keywords: [牛谷雅, うしたにまさし, 著者, 作家, 占守島の戦い, 大本営発表データベース, 出版甲子園, 長野高専, 長野工業高等専門学校, 日本史, 戦史研究]
   ShareButtons: ["linkedin", "x"] # To customize which share buttons to be enabled on page
-  author: まっしぃ
+  author: 牛谷雅
   # author: ["Me", "You"] # multiple authors
-  images: ["/img/icon.jpg", "twitter_card.jpg"]
+  images: ["/img/icon.png"]
+  
+  schema:
+    publisherType: Person
+    sameAs:
+      - "https://x.com/massy1102"
+      - "https://github.com/u-massy"
+      - "https://note.com/massy1102"
+      - "https://db.daihon-ei.jp"
   DateFormat: "2006年1月2日"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -81,11 +89,12 @@ languages:
     contentDir: content/ja
     staticDir: static/
     params:
-      author: まっしぃ
+      author: 牛谷雅
       DateFormat: "2006年1月2日"
       homeInfoParams:
         title: ようこそ！👋
         content: 日本史オタクのへっぽこWebエンジニア
+      description: "牛谷雅のサイト。著書『8月15日に終わらなかった戦争 「占守島の戦い」で散った曾祖父を追う』（青春出版社）、大本営発表データベースなどの情報を掲載。"
     menu:
       main:
         - identifier: posts
@@ -122,11 +131,12 @@ languages:
     contentDir: content/en
     staticDir: static/
     params:
-      author: Massy
+      author: Masashi Ushitani
       DateFormat: "January 2, 2006"
       homeInfoParams:
         title: Welcome!👋
         content: Japanese history geek and a web developer.
+      description: "Website of Masashi Ushitani. Information about the book 'The War That Didn't End on August 15: Tracing My Great-Grandfather Who Fell in the Battle of Shumshu' (Seishun Publishing), Imperial Headquarters Announcement Database, and more."
     menu:
       main:
         - name: Posts

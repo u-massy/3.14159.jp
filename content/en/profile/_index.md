@@ -1,6 +1,7 @@
 ---
 title: "Profile"
 draft: false
+description: "Profile of Masashi Ushitani. Born in 2005. Currently studying at Nagano National College of Technology, Department of Electronic and Information Engineering. Author of 'The War That Didn't End on August 15' (Seishun Publishing), developer of Imperial Headquarters Announcement Database."
 ---
 
 ### Masashi Ushitani

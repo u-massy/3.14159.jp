@@ -1,0 +1,60 @@
+{{- /* Head custom content area start */ -}}
+{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
+{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- if ne (.Resources.Match "daihon-ei-post.css") nil -}}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="daihon-ei-post.css" />
+{{- end -}}
+{{- if ne (.Resources.Match "daihon-ei-list.css") nil -}}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="daihon-ei-list.css" />
+{{- end -}}
+<style>
+	@import "https://davidar.github.io/linja-pona/stylesheet.css";
+	.linja-pona {
+		font-family: linja-pona, sans-serif;
+	}
+</style>
+{{ if eq .Lang "toki-pona" }}
+<style>
+	body {
+		font-family: linja-pona, sans-serif;
+	}
+	footer, .logo {
+		font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+	}
+</style>
+{{ end }}
+
+{{- /* Person Schema for SEO - 牛谷雅のオフィシャルサイト */ -}}
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "牛谷雅",
+  "alternateName": "うしたに・まさし",
+  "url": "https://3.14159.jp/",
+  "sameAs": [
+    "https://x.com/massy1102",
+    "https://github.com/u-massy",
+    "https://note.com/massy1102",
+    "https://db.daihon-ei.jp"
+  ],
+  "jobTitle": "Webエンジニア・作家",
+  "description": "牛谷雅（うしたに・まさし）。2005年生まれ。長野工業高等専門学校電子情報工学科在学中。著書『8月15日に終わらなかった戦争 「占守島の戦い」で散った曾祖父を追う』（青春出版社）、大本営発表データベースの開発など。",
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "長野工業高等専門学校",
+    "department": "電子情報工学科"
+  },
+  "knowsAbout": ["日本史", "戦史研究", "ウェブ開発", "占守島の戦い"],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "長野工業高等専門学校"
+  }
+}
+</script>
+{{- end -}}
+{{- /* Head custom content area end */ -}}
+
