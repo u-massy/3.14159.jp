@@ -89,7 +89,7 @@ languages:
     contentDir: content/ja
     staticDir: static/
     params:
-      author: 牛谷雅
+      author: 牛谷 雅
       DateFormat: "2006年1月2日"
       homeInfoParams:
         title: ようこそ！👋
