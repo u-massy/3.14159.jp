@@ -84,6 +84,10 @@ Dec. 28th, 2024
 **Released the ["Imperial Headquarters Announcement Database."](https://db.daihon-ei.jp)[^daihon-ei]**
 {{% fontsize 0.75 "Presented a web application built with Next.js at the KOSEN Career 2024 Winter National Competition's LT presentation." %}}
 
+---
 
+Dec. 17th, 2025   
+**Published a sole-authored book**
+{{% fontsize 0.75 "The title is [\"The War That Didn't End on August 15: Tracing My Great-Grandfather Who Fell in the Battle of Shumshu\"](https://amazon.co.jp/dp/4413234227) (Seishun Publishing)." %}}
 
 [^daihon-ei]: The Imperial General Headquarters (大本営, Daihon'ei) was part of the Supreme War Council and was established in 1893 to coordinate efforts between the Imperial Japanese Army and Imperial Japanese Navy during wartime.
